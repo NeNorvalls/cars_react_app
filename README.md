@@ -4,7 +4,11 @@ Explore a collection of cool cars in this React-based portfolio app. Find your d
 
 ## Preview
 
-![Car Portfolio App Preview](./preview.png)
+![Car Portfolio App Preview](https://i.ibb.co/dtRkxNt/Picture5.png)
+
+## Demo
+
+Explore the live demo of the [Car App](https://car-hook-app.netlify.app/).
 
 ## Project Overview
 
@@ -22,10 +26,6 @@ The project structure is organized into components, with styles managed using mo
 - Meta tags have been optimized for search engines.
 - Open Graph (OG) tags are implemented for better social media sharing.
 - Descriptive keywords and a concise description have been included.
-
-## Demo
-
-Explore the live demo of the [Car Portfolio App](https://your-portfolio-url.com).
 
 ## Challenges Faced
 
