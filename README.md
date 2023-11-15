@@ -27,20 +27,6 @@ The project structure is organized into components, with styles managed using mo
 - Open Graph (OG) tags are implemented for better social media sharing.
 - Descriptive keywords and a concise description have been included.
 
-## Challenges Faced
-
-- Challenge 1: [Describe the challenge and how it was addressed.]
-- Challenge 2: [Describe the challenge and how it was addressed.]
-
-## Future Enhancements
-
-- Feature 1: [Describe a planned feature or improvement.]
-- Feature 2: [Describe another planned feature or improvement.]
-
-## Security
-
-The project uses module.css for styling to enhance security by encapsulating styles within components.
-
 ## How to Run
 
 1. Clone the repository: `git clone https://github.com/your-username/car-portfolio-app.git`
@@ -49,7 +35,3 @@ The project uses module.css for styling to enhance security by encapsulating sty
 4. Run the development server: `npm start`
 
 Visit `http://localhost:3000` in your browser to view the app.
-
----
-
-Feel free to customize this template further based on your preferences and project details.
