@@ -18,7 +18,7 @@ const CarList = ({ cars }) => {
     const goBackButton = document.getElementById("goBackButton");
 
     const handleClick = () => {
-      window.location.href = "https://nenorvalls-frontend-fusions.netlify.app/";
+      window.location.href = "https://nenorvalls-portfolio.netlify.app/";
     };
 
     if (goBackButton) {
