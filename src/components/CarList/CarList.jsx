@@ -1,4 +1,4 @@
-import React, { useState, useMemo, useEffect } from "react";
+import React, { useState, useMemo } from "react";
 import s from "./CarList.module.css";
 
 const CarList = ({ cars }) => {
@@ -13,22 +13,6 @@ const CarList = ({ cars }) => {
       );
     }
   }, [cars, searchInput]);
-
-  useEffect(() => {
-    const goBackButton = document.getElementById("goBackButton");
-
-    const handleClick = () => {
-      window.location.href = "https://nenorvalls-portfolio.netlify.app/";
-    };
-
-    if (goBackButton) {
-      goBackButton.addEventListener("click", handleClick);
-
-      return () => {
-        goBackButton.removeEventListener("click", handleClick);
-      };
-    }
-  }, []); 
 
   return (
     <div className={s.container}>
@@ -47,9 +31,6 @@ const CarList = ({ cars }) => {
           </li>
         ))}
       </ul>
-      <button id="goBackButton" className={s.button}>
-        Go back to portfolio!
-      </button>
     </div>
   );
 };

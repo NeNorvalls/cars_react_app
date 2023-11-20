@@ -6,3 +6,26 @@
   align-items: center;
   justify-content: center;
 }
+
+#portfolioText {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.portfolioLink {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 24px;
+  color: #007bff;
+  transition: color 0.3s ease;
+  padding: 1rem;
+}
+
+.portfolioLink:hover {
+  color: #0056b3;
+}
+
+#portfolioText,
+.portfolioLink {
+  letter-spacing: 2px;
+}
